@@ -4,11 +4,11 @@ BearMaps is web mapping application (inspired by Google Maps) of Berkeley built 
 
 ## Features ##
 * Map scrolling/zooming 
-![](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![](rastering.gif)
 * Location search and autocomplete
 ![](autocomplete.gif)
 * Routing and path finding
-![](https://github.com/mrbrianhobo/bearmaps/blob/master/a*%20star.gif)
+![](a*%20star.gif)
 
 ## Implementation ##
 The scroll and zoom functions are done by map rastering (converting user's viewing frame into desired image/bitmap). We do this by using a QuadTree data structure to contruct overall map images from smaller component "pixels."
